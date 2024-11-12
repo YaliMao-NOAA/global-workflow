@@ -4,8 +4,8 @@ GFS V16.3.21 RELEASE NOTES
 PRELUDE
 -------
 Update GCIP script and parm file for NESDIS GMGSI product updates:
-- Update GCIP script to work with the new filenames of Global Mosaic of Geostationary Satellite Imagery (GMGSI) products.
-- Update GCIP parm file because one sensor number is new to the current GCIP configuration, and the locations of multiple senors are changed.
+* Update GCIP script to work with the new filenames of Global Mosaic of Geostationary Satellite Imagery (GMGSI) products.
+* Update GCIP parm file because one sensor number is new to the current GCIP configuration, and the locations of multiple senors are changed.
 
 IMPLEMENTATION INSTRUCTIONS
 ---------------------------
@@ -51,7 +51,7 @@ cd ../ecf
 VERSION FILE CHANGES
 --------------------
 
-* `versions/run.ver` - change `version=v16.3.21`, `gfs_ver=v16.3.21`, and `obsproc_ver=v1.3`
+* `versions/run.ver` - change `version=v16.3.21`, `gfs_ver=v16.3.21`
 
 SORC CHANGES
 ------------
